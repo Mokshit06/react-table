@@ -19,7 +19,7 @@ function render<TProps extends {}>(Comp: any, props: TProps) {
   if (!Comp) return null
 
   if (typeof Comp === 'function') {
-    return <Comp {...props} />
+    return createComponent(Comp, props)
   }
 
   return Comp
