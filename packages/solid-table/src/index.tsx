@@ -1,4 +1,4 @@
-/** @jsxImportSource solid-js */
+// /** @jsxImportSource solid-js */
 import {
   AnyGenerics,
   CreateTableFactoryOptions,
@@ -9,7 +9,7 @@ import {
   init,
   TableFeature,
 } from '@tanstack/table-core'
-import { createComputed, mergeProps } from 'solid-js'
+import { createComputed, mergeProps, createComponent } from 'solid-js'
 import { createStore } from 'solid-js/store'
 
 export * from '@tanstack/table-core'
